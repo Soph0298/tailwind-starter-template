@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    font-family: "Cutive Mono", monospace;
+  }
+}
+
 h4 {
   font-size: 1.2rem;
 }
@@ -14,10 +20,4 @@ h1,
 h2,
 h3 {
   font-family: poppins, sans-serif;
-}
-
-@layer base {
-  body {
-    font-family: "Cutive Mono", monospace;
-  }
 }
